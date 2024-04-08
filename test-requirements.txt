@@ -18,7 +18,7 @@ nose-timer
 # splitting tests run on a separate CI machines
 nose-parallel
 # Required by st2client tests
-pyyaml<4.0,>=3.12
+pyyaml>=3.12,<7.0
 RandomWords
 gunicorn==19.7.1
 psutil

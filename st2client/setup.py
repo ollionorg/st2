@@ -56,7 +56,7 @@ setup(
         'jsonpath-rw>=1.3.0',
         'prettytable',
         'python-dateutil',
-        'pyyaml<4.0,>=3.11',
+        'pyyaml>=3.11,<7.0',
         'requests[security]>=2.14.1,<2.15',
         'six==1.10.0'
     ],
